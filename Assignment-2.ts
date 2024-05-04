@@ -52,11 +52,11 @@ else{
 
 var num: number = 10;
 if (num % 2 == 0 && num % 3 == 0) {
-    console.log("This Number Is Divisible By Both 2 and 3".);
+    console.log("This Number Is Divisible By Both 2 and 3");
 } else if (num % 2 == 0 && num % 3 != 0) {
     console.log("This Number Is Divisible By 2 But Not By 3");
 } else if (num % 2 != 0 && num % 3 == 0) {
-    console.log("This Number Is Divisible By 3 But Not By 2".);
+    console.log("This Number Is Divisible By 3 But Not By 2");
 } else {
     console.log("This Number Is Not Divisible By Either Two Or Three");
 }
