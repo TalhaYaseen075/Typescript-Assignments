@@ -30,8 +30,8 @@ while (i <= 25) {
 }
 // Write a program that uses a while loop to print the first 10 even numbers...
 // a Is Used As Loop Vaiable...
-let a = 0;
-while (a <= 10) {
+let a = 1;
+while (a <= 20) {
     if (a % 2 == 0) {
         console.log("Even Number Is", a);
     }
@@ -94,11 +94,13 @@ let factorialNumber = (n) => {
     }
     else {
         let result = 1;
-        for (let i = 2; i <= n; i++) {
+        let i = 2;
+        while (i <= n) {
             result *= i;
+            i++;
         }
         return result;
     }
 };
 let factorialResult = factorialNumber(10);
-console.log("actorialResult", factorialResult);
+console.log("factorialResult", factorialResult);
