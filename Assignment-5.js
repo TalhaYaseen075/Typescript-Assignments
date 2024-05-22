@@ -13,10 +13,7 @@ let fruitsResult = fruits.filter((element, index) => element.length > 5);
 console.log("fruitsResult", fruitsResult);
 // Given an array of names ["Alice", "Bob", "Charlie", "David", "Emily"], use the forEach method to log each name with an exclamation mark at the end, e.g., "Alice!"...
 let names = ["Alice", "Bob", "Charlie", "David", "Emily"];
-names.forEach((element) => {
-    let modifiedName = element + "!";
-    console.log("modifiedName", modifiedName);
-});
+names.forEach((element) => console.log(element + "!"));
 // Given an array of temperatures in Celsius [0, 10, 20, 30, 40], use the map method to create a new array where each temperature is converted to Fahrenheit using the formula (Celsius * 9/5) + 32...
 let temperatures = [0, 10, 20, 30, 40];
 let newTemperature = temperatures.map((element) => (element * 9 / 5) + 32);
